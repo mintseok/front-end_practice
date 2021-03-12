@@ -1,0 +1,9 @@
+body {
+    display: flex;
+}
+
+.timer_body,
+.stopwatch_body {
+    width: 50%;
+}
+

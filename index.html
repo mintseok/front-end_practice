@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>StopWatch</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="timer_body">
+            <h2>Timer</h2>
+            <div class="timer">
+                <h1 id="timerClock">00:00</h1>
+                <div class="js-tButtons">
+                    <div class="add_seconds">
+                        <button id="add10s">10초 추가</button>
+                        <button id="add30s">30초 추가</button>
+                    </div> <br>
+                    <div class="add_minutes">                        
+                        <button id="add1">1분 추가</button>
+                        <button id="add5">5분 추가</button>
+                        <button id="add10">10분 추가</button>
+                    </div> <br>
+                    <div class="menu">
+                        <button id="start">시작</button>
+                        <button id="stop">정지</button>
+                        <button id="reset">초기화</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stopwatch_body">
+            <h2>StopWatch</h2>
+            <div class="stopwatch">
+                <h1 id="stopClock">00:00</h1>
+                <div class="js-sButtons">
+                    <button id="startS">시작</button>
+                    <button id="stopS">정지</button>
+                    <button id="resetS">초기화</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="js-stopwatch.js"></script>
+    <script src="js-timer.js"></script>
+    </body>
+</html>
